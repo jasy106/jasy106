@@ -1,0 +1,258 @@
+@import 'base.scss';
+.logo{
+    color: $fontColor;
+}
+.logoText{
+    // border: 1px solid red;  
+    font-size: 12;  
+}
+.headerNavbar{
+    height: 8%;
+    background-color: $paletteColor1;
+}
+.textSizeContainer{
+    color: $fontColor;
+    // border: 1px solid red; 
+    // align-items: center;
+}
+.languageButton{
+    background-color: $paletteColor1 ;
+    color: $fontColor; 
+}
+.navbar{
+    background-color: $paletteColor2 ;
+    color: $fontColor;
+}
+.languageButton:hover{
+    color: $fontColor; 
+}
+.navbarText{
+    color: $fontColor; 
+    font-size: smaller;
+    font-weight: bold;
+    
+}
+.registerBtn{
+    // color: $fontColor;
+    font-size: smaller;
+    font-weight: 400;
+    border-radius: 50px;
+
+}
+.navbarMenu{
+    display: flex;
+    justify-content: end;
+}
+.navbarText:hover{
+    color: $fontColor; 
+}
+.vaccinationStatus{
+    background-image: url('/images/vaccinationStatusBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100px;
+    // border: 1px solid red;
+
+}
+.vaccinationSteps{
+    background-color: $paletteColor5;
+}
+.viewMoreBtn{
+    border: 2px solid white;
+    border-radius: 25px;
+    padding:10px 30px 10px 35px ;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.stepCard{
+    background-color: white;
+    border-radius: 5px;
+    width: 270px;
+    height: 350px;
+   
+}
+.stepCardText{
+    background-color: $paletteColor2;
+    color: white;
+    font-size: 14px;
+    // margin: 0;
+    // border: 1px solid red; 
+}
+.stepLabel{
+    background-color: white;
+    border: 1px solid $paletteColor1;
+    color: $paletteColor1;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 16px;
+
+
+    position: relative;
+    top: 20px;
+    left: 90px;
+
+    
+
+
+}
+ul li::marker {
+    color: #04c4c4;
+  }
+.headingText{
+    color: $paletteColor2;
+}
+.cowinBtn{
+    background-color: $paletteColor2;
+    color: white;
+    border-radius: 20px;
+
+}
+.supportBtn{
+    background-color: $paletteColor2;
+    color: white;
+    border-radius: 30px 0 0 30px;
+    width:150px;
+    font-size: 14px;
+    position: sticky;
+    top:200px; 
+    left: 1369px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.raiseIssueCards{
+    background-color: $paletteColor2;
+    color: white;
+}
+.cardText{
+    font-size: small;
+    font-weight: 500;
+    
+}
+.cardLink{
+    text-decoration:none; 
+    color: $paletteColor2;
+    font-size: 8px;
+}
+
+.downloadBtn{
+    background-color: white;
+    color: $paletteColor2;
+    border: 1px solid  $paletteColor1;
+    border-radius: 20px;
+}
+.faqNav{
+    // border: 1px solid red;
+    background-color: $paletteColor5;
+    height: 50px;
+    width:100%;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 2px solid $paletteColor4;
+    a{
+        color: $paletteColor2;
+        font-weight: 500;
+
+    }
+}
+.accordion {
+    max-height: 300px; /* Adjust the maximum height as needed */
+    overflow-y: auto;
+    scrollbar-width: thin; /* Set the scrollbar width */
+    scrollbar-color: $paletteColor1 #f0f0f0; /* Thumb and track colors */
+    overflow-x: hidden;
+}
+#faqAccordion{
+
+    .accordion-button{
+        background-color: #f6f6f6;
+        // border-radius: 20px 20px 0px 0px;
+        // border: 0px;
+        width: 80%;
+        // border: 1px solid blue;
+
+    }
+    .faqAccordionBody{
+        font-size: smaller;
+        width: 80%;
+        border: 1px solid red;
+    }
+}
+
+.cowinBackground{
+    background-color: $paletteColor5;
+
+}
+.numbering{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: -50px;
+}
+.newOnCowinHeading{
+    // height: 100px;
+    width:350px;
+    // border: 1px solid black;
+    overflow: hidden;
+    // box-shadow: ;
+}
+.newOnCowinBody{
+    width:350px;
+    font-size: 14px;
+    // background-color: white;
+}
+.vaccinationDriveText{
+    // background-color: $paletteColor2;
+    color: white;
+}
+.dashboardBtn{
+    background-color:  white;
+    color:$paletteColor1;
+    border-radius: 20px;
+    border: 2px solid $paletteColor1;
+}
+.partnerLogo{
+    height: 60px;
+    width:200px;
+    border-radius: 5px;
+    background-color: white;
+}
+.footerContainer{
+    background-color: $paletteColor2;
+}
+.hrStyle{
+    height:4px;
+    border-width:0;
+    width: 30px;
+    background-color:$paletteColor5;
+    margin: 0px;
+    padding: 0px;
+
+}
+.footerLinks{
+    text-decoration: none;
+    color:$paletteColor4;
+}
+.footerText{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+#byDistrictTab{
+    color:darkgray;
+    font-weight: 600;
+    font-size: larger;
+    
+}
+#byPIN-tab{
+    color:darkgray;
+    font-weight: 600;
+    font-size: larger;
+}
+#onTheMap-tab{
+    color:darkgray;
+    font-weight: 600;
+    font-size: larger;
+}

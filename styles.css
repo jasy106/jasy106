@@ -1,0 +1,261 @@
+.logo {
+  color: white;
+}
+
+.logoText {
+  font-size: 12;
+}
+
+.headerNavbar {
+  height: 8%;
+  background-color: #045d5d;
+}
+
+.textSizeContainer {
+  color: white;
+}
+
+.languageButton {
+  background-color: #045d5d;
+  color: white;
+}
+
+.navbar {
+  background-color: #017e7e;
+  color: white;
+}
+
+.languageButton:hover {
+  color: white;
+}
+
+.navbarText {
+  color: white;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.registerBtn {
+  font-size: smaller;
+  font-weight: 400;
+  border-radius: 50px;
+}
+
+.navbarMenu {
+  display: flex;
+  justify-content: end;
+}
+
+.navbarText:hover {
+  color: white;
+}
+
+.vaccinationStatus {
+  background-image: url("/images/vaccinationStatusBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100px;
+}
+
+.vaccinationSteps {
+  background-color: #edffff;
+}
+
+.viewMoreBtn {
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px 30px 10px 35px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.stepCard {
+  background-color: white;
+  border-radius: 5px;
+  width: 270px;
+  height: 350px;
+}
+
+.stepCardText {
+  background-color: #017e7e;
+  color: white;
+  font-size: 14px;
+}
+
+.stepLabel {
+  background-color: white;
+  border: 1px solid #045d5d;
+  color: #045d5d;
+  border-radius: 10px;
+  padding: 5px 20px;
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+  left: 90px;
+}
+
+ul li::marker {
+  color: #04c4c4;
+}
+
+.headingText {
+  color: #017e7e;
+}
+
+.cowinBtn {
+  background-color: #017e7e;
+  color: white;
+  border-radius: 20px;
+}
+
+.supportBtn {
+  background-color: #017e7e;
+  color: white;
+  border-radius: 30px 0 0 30px;
+  width: 150px;
+  font-size: 14px;
+  position: sticky;
+  top: 200px;
+  left: 1369px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.raiseIssueCards {
+  background-color: #017e7e;
+  color: white;
+}
+
+.cardText {
+  font-size: small;
+  font-weight: 500;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: #017e7e;
+  font-size: 8px;
+}
+
+.downloadBtn {
+  background-color: white;
+  color: #017e7e;
+  border: 1px solid #045d5d;
+  border-radius: 20px;
+}
+
+.faqNav {
+  background-color: #edffff;
+  height: 50px;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 2px solid #99d9d9;
+}
+.faqNav a {
+  color: #017e7e;
+  font-weight: 500;
+}
+
+.accordion {
+  max-height: 300px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+  scrollbar-width: thin; /* Set the scrollbar width */
+  scrollbar-color: #045d5d #f0f0f0; /* Thumb and track colors */
+  overflow-x: hidden;
+}
+
+#faqAccordion .accordion-button {
+  background-color: #f6f6f6;
+  width: 80%;
+}
+#faqAccordion .faqAccordionBody {
+  font-size: smaller;
+  width: 80%;
+  border: 1px solid red;
+}
+
+.cowinBackground {
+  background-color: #edffff;
+}
+
+.numbering {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: 25px;
+  left: -50px;
+}
+
+.newOnCowinHeading {
+  width: 350px;
+  overflow: hidden;
+}
+
+.newOnCowinBody {
+  width: 350px;
+  font-size: 14px;
+}
+
+.vaccinationDriveText {
+  color: white;
+}
+
+.dashboardBtn {
+  background-color: white;
+  color: #045d5d;
+  border-radius: 20px;
+  border: 2px solid #045d5d;
+}
+
+.partnerLogo {
+  height: 60px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.footerContainer {
+  background-color: #017e7e;
+}
+
+.hrStyle {
+  height: 4px;
+  border-width: 0;
+  width: 30px;
+  background-color: #edffff;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footerLinks {
+  text-decoration: none;
+  color: #99d9d9;
+}
+
+.footerText {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+#byDistrictTab {
+  color: darkgray;
+  font-weight: 600;
+  font-size: larger;
+}
+
+#byPIN-tab {
+  color: darkgray;
+  font-weight: 600;
+  font-size: larger;
+}
+
+#onTheMap-tab {
+  color: darkgray;
+  font-weight: 600;
+  font-size: larger;
+}
+
+/*# sourceMappingURL=styles.css.map */
