@@ -46,3 +46,7 @@
 </div>
 
 ###
+
+<p align="left">👨‍💻 All of my projects are available at https://portfolio-website-six-rust-43.vercel.app/</p>
+
+###
